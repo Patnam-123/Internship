@@ -1,7 +1,7 @@
 import express from "express";
 import mongoose from "mongoose";
 import dotenv from "dotenv";
-import Test from "./Schemas/test.js";
+import Test from "./Schemas/some.js";
 
 
 // This will load the .env file located in the backend folder
