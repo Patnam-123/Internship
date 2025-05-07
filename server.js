@@ -1,15 +1,15 @@
 import express from "express";
 import mysql from "mysql2";
 
-const db = mysql.createPool({
-  host: "localhost",
-  user: "root",
-  password: "Shiri@123",
-  database: "test1",
-  waitForConnections: true,
-  connectionLimit: 10,
-  queueLimit: 0,
-});
+// const db = mysql.createPool({
+//   host: "localhost",
+//   user: "root",
+//   password: "Shiri@123",
+//   database: "test1",
+//   waitForConnections: true,
+//   connectionLimit: 10,
+//   queueLimit: 0,
+// });
 
 const app = express();
 app.use(express.json()); // Keep JSON parsing
